@@ -1,0 +1,9 @@
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gap-small);
+}
+
+.hidden {
+  visibility: hidden;
+}

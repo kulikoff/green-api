@@ -1,0 +1,8 @@
+.reveal {
+  flex: 0 0 auto;
+  border: 0;
+  background: transparent;
+  color: var(--color-accent);
+  font-size: var(--font-size-small);
+  font-weight: 700;
+}

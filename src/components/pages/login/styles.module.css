@@ -1,0 +1,59 @@
+.page {
+  display: grid;
+  place-items: center;
+  min-height: 100%;
+  padding: var(--page-padding);
+  background:
+    radial-gradient(circle at top left, var(--color-accent-alpha-16), transparent 32%),
+    radial-gradient(circle at bottom right, var(--color-purple-alpha-14), transparent 28%), var(--color-background);
+}
+
+.card {
+  display: grid;
+  gap: var(--gap-large);
+  width: min(var(--content-max-width), 100%);
+  padding: 28px;
+  border-radius: 24px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-large);
+  margin-bottom: 6px;
+
+  & h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: -0.04em;
+  }
+
+  & p {
+    margin: 4px 0 0;
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-copy);
+  }
+}
+
+.error {
+  margin: 0;
+  color: var(--color-danger);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-message);
+}
+
+.submit {
+  width: 100%;
+}
+
+.mark {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-medium);
+  background: var(--color-accent);
+  color: var(--color-surface);
+}
